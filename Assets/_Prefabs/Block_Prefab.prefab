@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5157920844621628630}
   - component: {fileID: 5157920844621628631}
   - component: {fileID: 6280719911338532}
+  - component: {fileID: 7168596315215646923}
   m_Layer: 0
-  m_Name: Block
+  m_Name: Block_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,3 +96,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4c3ed4c1dba73408c5a9f2c3211f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 5157920844621628631}
+  Block: {fileID: 21300000, guid: 1e97292fea403264eb3121b230dae2b8, type: 3}
+  BlockChanged: {fileID: 21300000, guid: 592cd0dbb3d857c45b3c6e958c1df572, type: 3}
+--- !u!61 &7168596315215646923
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5157920844621628624}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.06}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.03, y: 0.03}
+  m_EdgeRadius: 0

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Block_1
+  - Qbert
+  - Elevator
+  - Enemy
+  - Ally
   layers:
   - Default
   - TransparentFX
@@ -12,10 +16,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Qbert
+  - Elevator
+  - Enemy
+  - Ally
   - 
   - 
   - 
